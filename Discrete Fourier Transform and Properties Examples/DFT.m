@@ -155,7 +155,9 @@ end
 
 %% -----------------------------------------------------------------------------
 %*******************************************************************************
-% Issues
-%   1) Taking transpose of complex vector causes it to be conjugated
+% Cautions
+%   1) Using MATLAB transpose tick (') takes Complex Conjugate Transpose.
+%      Using MATLAB transpose() function takes Transpose.
 %       https://www.mathworks.com/help/matlab/ref/ctranspose.html
+%       https://www.mathworks.com/help/matlab/ref/transpose.html
 %*******************************************************************************
