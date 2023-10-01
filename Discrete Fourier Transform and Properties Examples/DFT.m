@@ -157,4 +157,5 @@ end
 %*******************************************************************************
 % Issues
 %   1) Taking transpose of complex vector causes it to be conjugated
+%       https://www.mathworks.com/help/matlab/ref/ctranspose.html
 %*******************************************************************************
